@@ -1,0 +1,43 @@
+.body {
+    background-color: rgb(236, 233, 233);
+
+    /*justify-content: flex-start;*/
+    margin-left: 200px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.form {
+    max-width: 70%;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 0px;
+
+}
+
+.form__header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin: 0;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.form__button {
+    border: 1px solid #ccc;
+    background-color: rgb(65, 160, 150);
+    padding: 10px;
+    width: auto;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.form__input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 90%;
+    margin: 15px;
+    font-family: 'Fredoka', sans-serif;
+
+}
