@@ -1,3 +1,3 @@
-# lista-zadan
+# lista-zadań
 
 ## Opis
