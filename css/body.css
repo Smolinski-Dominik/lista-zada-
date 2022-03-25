@@ -1,8 +1,11 @@
 .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #ece9e9;
-    /*justify-content: flex-start;*/
-    margin-left: 200px;
+    /*margin-left: 200px;*/
     font-family: 'Fredoka', sans-serif;
+
 }
 
 .form {
@@ -10,7 +13,6 @@
     background-color: white;
     border: 1px solid #ccc;
     padding: 0px;
-
 }
 
 .form__header {
@@ -28,15 +30,16 @@
     padding: 10px;
     width: auto;
     color: white;
-    margin-top: 10px;
+    margin: 10px 0px 0px 15px;
     font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
 }
 
 .form__input {
     border: 1px solid #ccc;
     padding: 10px;
-    width: 430px;
-    margin: 15px;
+    width: 80%;
+    margin: 15px 0px 15px 15px;
     font-family: 'Fredoka', sans-serif;
     font-size: 16px;
 }
