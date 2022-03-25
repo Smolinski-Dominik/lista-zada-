@@ -1,3 +1,5 @@
 # lista-zadań
 
-## Opis
+https://smolinski-dominik.github.io/lista-zadan 
+
+## Opis 
