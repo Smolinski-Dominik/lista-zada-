@@ -8,6 +8,7 @@
     <title>Lista zadań</title>
     <link href="css/body.css" rel="stylesheet">
     <link href="css/list.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize-opentype.css/0.2.3/normalize-opentype.min.css" integrity="sha512-0i+Cj480FEdmxsDzL2o0Uj5UEA3Z27RTCP1DZrgJpuIZe6oRbfDA35LCTFyZIRz6WFmRtEleAcDwAip0MhcEsA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script defer src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,18 +21,15 @@
         <h1>Lista zadań</h1>
     </div>
     <form class="js-form form">
-        <p class="form__header">Dodaj nowe zadanie
-        </p>
-        <input class="js-input form__input" placeholder="Co jest do zrobienia?">
+        <p class="form__header">Dodaj nowe zadanie</p>
+        <input class="js-newTask form__input" placeholder="Co jest do zrobienia?">
         <button class="js-button form__button">Dodaj zadanie</button>
     </form>
     <div class="list">
         <div class="list__header">
             Lista zadań
         </div>
-        <ul class="list__body">
-            
-        </ul>
+        <ul class="js-task task"></ul>
     </div>
 
 </body>
