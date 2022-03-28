@@ -2,36 +2,52 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista zadań</title>
-    <link href="css/body.css" rel="stylesheet">
-    <link href="css/list.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize-opentype.css/0.2.3/normalize-opentype.min.css" integrity="sha512-0i+Cj480FEdmxsDzL2o0Uj5UEA3Z27RTCP1DZrgJpuIZe6oRbfDA35LCTFyZIRz6WFmRtEleAcDwAip0MhcEsA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script defer src="js/script.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Source+Serif+4:wght@300&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista zadań</title>
+  <link href="css/container.css" rel="stylesheet">
+  <link href="css/section.css" rel="stylesheet">
+  <link href="css/form.css" rel="stylesheet">
+  <link href="css/list.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/task.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize-opentype.css/0.2.3/normalize-opentype.min.css"
+    integrity="sha512-0i+Cj480FEdmxsDzL2o0Uj5UEA3Z27RTCP1DZrgJpuIZe6oRbfDA35LCTFyZIRz6WFmRtEleAcDwAip0MhcEsA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script defer src="js/script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
 
-<body class="body">
-    <div class="header">
-        <h1>Lista zadań</h1>
-    </div>
-    <form class="js-form form">
-        <p class="form__header">Dodaj nowe zadanie</p>
-        <input class="js-newTask form__input" placeholder="Co jest do zrobienia?">
-        <button class="js-button form__button">Dodaj zadanie</button>
-    </form>
-    <div class="list">
-        <div class="list__header">
-            Lista zadań
-        </div>
-        <ul class="js-task task"></ul>
-    </div>
+<body>
+  <main class="container">
+    <header>
+      <h1>Lista zadań</h1>
+    </header>
 
+    <section class="section">
+      <h2 class="section__header">Dodaj nowe zadanie</h2>
+      <div class="section__body">
+        <form class="form js-form">
+          <input class="form__input js-newTask" placeholder="Co jest do zrobienia?">
+          <button class="form__button">Dodaj zadanie</button>
+        </form>
+      </div>
+    </section>
+    <section class="section">
+      <h2 class="section__header">Lista zadań</h2>
+      <div class="section__body">
+        <ul class="tasks js-tasks"></ul>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
